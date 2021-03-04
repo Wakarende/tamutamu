@@ -44,3 +44,17 @@ h2 {
 .accent-text {
     color: #80b784;
 }
+ /* About  */
+.about {
+    display: flexbox;
+    justify-content:space-evenly;
+    background: #E6F2E9;
+}
+.about-img {
+    height: 30rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+.col-md-6 {
+    margin-top: 80px;
+}
