@@ -44,6 +44,7 @@ h2 {
 .accent-text {
     color: #80b784;
 }
+
  /* About  */
 .about {
     display: flexbox;
@@ -58,3 +59,5 @@ h2 {
 .col-md-6 {
     margin-top: 80px;
 }
+
+/* Menu  */
