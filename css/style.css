@@ -32,7 +32,7 @@ h2 {
     padding: 5px;
 }
 .hero-btn:hover {
-    background: #80b784;
+    color: #377B44;
 }
 .hero-text {
     color: white;
@@ -61,9 +61,62 @@ h2 {
 }
 
 /* Menu  */
+.menu {
+    margin-top: 80px;
+}
 .card-body {
     background: #E6F2E9;
 }
 .card-title {
     color: #377B44;
+}
+.text-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-2 {
+    margin-top:60px;
+    margin-bottom: 20px;
+}
+.menu-btn {
+    background:#80b784;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.menu-btn:hover {
+    background: #377B44;
+}
+/* Gallery */
+.gallery {
+    margin-top: 80px;
+    background: #E6F2E9;
+    padding-bottom: 30px;
+}
+.gallery-title {
+    margin-bottom: 20px;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content:center;
+}
+.item {
+    padding: 5px;
+}
+/* Contact  */
+.contact-list {
+    list-style-type: none;
+}
+.contact-title {
+    text-align: center;
+}
+.contact-col-md-6 {
+    
+}
+/* footer  */
+.footer {
+    background:#E6F2E9;
+    
 }
