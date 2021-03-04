@@ -3,8 +3,9 @@
     sans-serif;
 }
 .jumbotron {
-    background: url(../img/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
