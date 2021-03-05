@@ -17,16 +17,16 @@
                 <div class="container-fluid">
                         <ul  id = "order"class="nav justify-content-center">
                                 <li class="nav-item">
-                                <a class="nav-link active order" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active nav-order" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link order" href="#">About</a>
+                                <a class="nav-link nav-order" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link order" href="#">Menu</a>
+                                <a class="nav-link nav-order" href="#">Menu</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link order" href="#" >
+                                <a class="nav-link nav-order" href="#" >
                                         <i class="bi bi-cart"></i>
                                 </a>
                                 </li>
@@ -34,8 +34,47 @@
                 </div>
         </nav>
         <!-- choose order  -->
+        <section class="order">
+        <div class="container">
+               
+                <h2>Select your order</h2>
+                <label for="pizza">Select your Pizza</label>
+                <select name="pizza" id="pizza">
+                        <option disable selected></option>
+                        <option value="">Hawaiian</option>
+                        <option value="">Pepperoni</option>
+                        <option value="">Margherita</option>
+                        <option value="">Chicken</option>
+                        <option value="">Beef</option>
+                        <option value="">Veggie</option>
+                </select>
+                <label for="Size">Size</label>
+                <select name="size" id="size">
+                        <option disable selected></option>
+                        <option value=""></option>
+                        <option value="">Large</option>
+                        <option value="">Medium</option>
+                        <option value="">Small</option>
+                </select>
+        </div>
+        </section>
         <!-- pickup or delivery  -->
-        <!-- receipt  -->
+        <!-- cart  -->
+        <!-- <section class="container content-section text-center">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section> -->
         <!-- JS  -->
         <script src="../js/script.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 

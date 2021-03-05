@@ -120,6 +120,17 @@ h2 {
 }
 
 /* order  */
+.nav-order {
+    color: black;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
 .order {
     color: black;
 }
