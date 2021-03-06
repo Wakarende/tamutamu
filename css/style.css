@@ -58,6 +58,7 @@ h2 {
 }
 .col-md-6 {
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 /* Menu  */
@@ -79,22 +80,39 @@ h2 {
     margin-bottom: 20px;
 }
 .menu-btn {
-    background:#80b784;
+    background:none;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #377B44;
     padding: 5px;
 }
 .menu-btn:hover {
-    background: #377B44;
+    background: black;
+    color:#80b784 ;
 }
 .card-img-top {
     height: 10cm;
 }
+.order-btn {
+    border: 1px solid #377B44;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+    color: black;
+}
+.order-btn:hover {
+    color: #80b784;
+}
+.card {
+    /* display: none; */
+}
 /* Gallery */
 .gallery {
     margin-top: 80px;
+    margin-bottom: 80px;
     background: #E6F2E9;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .gallery-title {
     margin-bottom: 20px;
@@ -109,11 +127,40 @@ h2 {
     padding: 5px;
 }
 /* Contact  */
+.contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 .contact-list {
     list-style-type: none;
 }
 .contact-title {
     text-align: center;
+}
+.form-title {
+    
+}
+.bi{
+    margin-top: 20px;
+    margin-right: 20px;
+    line-height: 2;
+}
+.subscribe {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #377B44;
+    background: none;
+}
+.subscribe:hover {
+    background: black;
+    color: #80b784;
+
+}
+.subscribe-text {
+    margin-top: 20px;
+}
+.email {
+    margin-top: 20px;
 }
 
 /* footer  */
