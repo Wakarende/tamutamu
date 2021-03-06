@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $("#click").on(click, function(event) {
     event.preventDefault();
-    $(".card").slideDown();
+    $(".card").hide();
   });
 });
 

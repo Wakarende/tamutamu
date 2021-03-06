@@ -103,9 +103,9 @@ h2 {
 .order-btn:hover {
     color: #80b784;
 }
-.card {
+/* .card {
     /* display: none; */
-}
+/* / */
 /* Gallery */
 .gallery {
     margin-top: 80px;
@@ -137,9 +137,7 @@ h2 {
 .contact-title {
     text-align: center;
 }
-.form-title {
-    
-}
+
 .bi{
     margin-top: 20px;
     margin-right: 20px;
@@ -166,7 +164,12 @@ h2 {
 /* footer  */
 .footer {
     background:#E6F2E9;
-
+    padding-bottom: 30px;
+}
+.bi-footer {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* order  */
