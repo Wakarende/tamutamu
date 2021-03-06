@@ -24,15 +24,16 @@ h2 {
     color: #80b784;
     text-decoration: underline;
 }
-.hero-btn {
-    border-radius: 10px;
-    border: 1px solid white;
-    background: none;
+.hero-link {
+    text-decoration: none;
     color: white;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
 }
-.hero-btn:hover {
-    color: #377B44;
+.hero-link:hover {
+    color: #80b784;
+    background: black;
 }
 .hero-text {
     color: white;
@@ -102,6 +103,7 @@ h2 {
 }
 .order-btn:hover {
     color: #80b784;
+    background: black;
 }
 /* .card {
     /* display: none; */
