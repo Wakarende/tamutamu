@@ -37,8 +37,8 @@
         <section class="order">
         <div class="container">
                 <h2>Select your order</h2>
-                <label for="number">Number of pizza</label>
-                <input type="number" class="number" id="number" value="number"><br>
+                <!-- <label for="number">Number of pizza</label>
+                <input type="number" class="number" id="number" value="number"><br> -->
                 <label for="pizza">Select your Pizza</label>
                 <select name="pizza" id="pizza">
                         <option disable selected></option>
@@ -61,9 +61,9 @@
                 <select name="crust" id="crust">
                         <option disable selected></option>
                         <option value=""></option>
-                        <option value="">Thick</option>
-                        <option value="">Normal</option>
-                        <option value="">Thin</option>
+                        <option value="">Thick -- 150</option>
+                        <option value="">Normal --100</option>
+                        <option value="">Thin -- 80</option>
                 </select><br>
                 <label for="toppings">Select your toppings</label>
                 <p>Ksh.100 per topping</p>
@@ -82,7 +82,20 @@
         </section>
 
         <!-- pickup or delivery  -->
-        <!-- cart  -->
+        <div class="container">
+        <h2>Delivery or Pickup</h2>
+                <p>Choose delivery method</p>
+                <button>Pickup</button>
+                <button>Delivery</button>
+                <form action="" class="delivery" id="deliveries">
+                        <input type="text" name="name" id="name" value="name">
+                        <input type="text" name="location" id="location" value="location">
+                        <input type="text" name="number" id="number" value="number">
+                        <button id="submit" class="btn" onClick="submit">Submit</button>
+                </form>
+        </div>
+        <!-- checkout -->
+        
         <!-- <section class="container content-section text-center">
             <h2 class="section-header">CART</h2>
             <div class="cart-row">

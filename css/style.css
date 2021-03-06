@@ -87,6 +87,9 @@ h2 {
 .menu-btn:hover {
     background: #377B44;
 }
+.card-img-top {
+    height: 10cm;
+}
 /* Gallery */
 .gallery {
     margin-top: 80px;
