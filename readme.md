@@ -26,8 +26,8 @@ Once selection is done, the user will click the submit button which will print o
 
 ## Contact Details
 
-Email: joykirii@gmail.com
-Phone: +25472321289
+- Email: joykirii@gmail.com
+- Phone: +25472321289
 
 ## License
 
