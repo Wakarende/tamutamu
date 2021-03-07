@@ -8,6 +8,9 @@ h2 {
 section{
     cursor: pointer;
 }
+p {
+    font-size: 16px;
+}
     /* Homepage  */
 .jumbotron {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero1.jpg);
@@ -15,9 +18,17 @@ section{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    
 }
 .logo {
     padding-top: 10rem;
+}
+.navbar-default {
+    background: transparent;
+     transition:500ms ease;
+}
+.navbar-default.scrolled {
+    background: black;
 }
 .nav-link {
     color: white;
@@ -145,10 +156,12 @@ section{
     text-align: center;
 }
 
-.bi{
+.bi-contact{
     margin-top: 20px;
     margin-right: 20px;
     line-height: 2;
+    font-size: 30px;
+    color: #80b784;
 }
 .subscribe {
     margin-top: 20px;
@@ -179,10 +192,19 @@ section{
     padding-right: 10px;
     color:#80b784;
 }
+.map {
+    height: 5cm;
+    width: 5cm;
+    /* display: flex;  */
+    flex-direction: row;
+    align-self: right;
+
+}
 
 /* checkout-order  */
 .nav-order {
     color: black;
+    background: #E6F2E9;
 }
 
 .section-header {
@@ -192,6 +214,11 @@ section{
     text-align: center;
     font-size: 2.5em;
 }
+.navbar.scrolled {
+    background: #E6F2E9;
+    transition: background-color 200ms linear;
+}
+
 .order {
     color: black;
 }

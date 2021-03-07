@@ -88,4 +88,9 @@ $("#submit").click(function() {
   }else {
     alert("Dear " + fullName + " your pizza will be delivered to " + location + " within the hour." + "Your total cost is " + finalDeliveryTotal);
   }
-})
+});
+
+// navigation transition
+$(window).scroll(function(){
+	$('.navbar-default').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
