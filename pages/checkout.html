@@ -39,6 +39,7 @@
                 <h2>Select your order</h2>
                 <!-- <label for="number">Number of pizza</label>
                 <input type="number" class="number" id="number" value="number"><br> -->
+                <form id="form">
                 <label for="pizza">Select your Pizza</label>
                 <select name="pizza" id="pizza">
                         <option disable selected></option>
@@ -49,22 +50,47 @@
                         <option value="">Beef</option>
                         <option value="">Veggie</option>
                 </select><br>
+                <label for="quantity">Quantity</label>
+                <input type="text" id="quantity" name="quantity" value="0"><br>
                 <label for="size">Size</label>
-                <select name="size" id="size">
-                        <option disable selected></option>
+                <input class="form-check-input" type="radio" name="sizePizza" id="option1" value="Small">
+                <label class="form-check-label" for="sizeSmall">
+                  Small (Ksh.600)
+                </label>
+                <input class="form-check-input" type="radio" name="sizePizza" id="option1" value="Small">
+                <label class="form-check-label" for="sizeSmall">
+                  Medium (Ksh.800)
+                </label>
+                <input class="form-check-input" type="radio" name="sizePizza" id="option1" value="Small">
+                <label class="form-check-label" for="sizeSmall">
+                  Large (Ksh.1000)
+                </label><br>
+                <!-- <select name="size" id="size" class="size-type"> -->
+
+                        <!-- <option disable selected></option>
                         <option value=""></option>
                         <option value="">Large --- Ksh.1000</option>
                         <option value="">Medium --- Ksh.800</option>
-                        <option value="">Small --- Ksh.600</option>
-                </select> <br>
+                        <option value="">Small --- Ksh.600</option> -->
+                <!-- </select> <br> -->
                 <label for="crust">Crust</label>
-                <select name="crust" id="crust">
+                        <input class="form-check-input" type="radio" name="crustPizza" id="option1" value="Thick">
+                <label class="form-check-label" for="sizeSmall">
+                  Thick
+                </label> <input class="form-check-input" type="radio" name="crustPizza" id="option1" value="Normal">
+                <label class="form-check-label" for="sizeSmall">
+                  Normal
+                </label> <input class="form-check-input" type="radio" name="crustPizza" id="option1" value="Thin">
+                <label class="form-check-label" for="sizeSmall">
+                  Thin
+                </label><br>
+                <!-- <select name="crust" id="crust" class="crust-type">
                         <option disable selected></option>
                         <option value=""></option>
                         <option value="">Thick -- 150</option>
                         <option value="">Normal --100</option>
                         <option value="">Thin -- 80</option>
-                </select><br>
+                </select><br> -->
                 <label for="toppings">Select your toppings</label>
                 <p>Ksh.100 per topping</p>
                 <label for="Sausage">Sausage</label>
@@ -79,14 +105,15 @@
                 <input type="checkbox" value="ham" name="toppings" id="ham"><br>
                 <button class="submit" onclick="submit">Submit</button>
         </div>
+        </form>
         </section>
 
         <!-- pickup or delivery  -->
         <div class="container">
         <h2>Delivery or Pickup</h2>
                 <p>Choose delivery method</p>
-                <button>Pickup</button>
-                <button>Delivery</button>
+                <button id="pickup" onclick="click">Pickup</button>
+                <button id="delivery" onclick="click">Delivery</button>
                 <form action="" class="delivery" id="deliveries">
                         <input type="text" name="name" id="name" value="name">
                         <input type="text" name="location" id="location" value="location">
@@ -95,7 +122,18 @@
                 </form>
         </div>
         <!-- checkout -->
-        
+        <div class="container">
+                <div id="show-Bill">
+                <div class="panel panel-default">
+                <div class="panel-body">
+                        <p><strong>You final bill is...</strong></p>
+                        <p>Name: <span id="displayName"></span></p>
+                        <p>Toppings: <span id="displayToppings"></span></p>
+                        <p>Size: <span id="displaySize"></span></p>
+                        <p>Crust: <span id="displayCrust"></span></p>
+                        <p>Total cost: <span id="displayTotalCost"></span></p>
+              </div>
+              </div>
         <!-- <section class="container content-section text-center">
             <h2 class="section-header">CART</h2>
             <div class="cart-row">
@@ -112,7 +150,8 @@
             <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section> -->
         <!-- JS  -->
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
         <script src="../js/script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+       
 </body>
 </html>

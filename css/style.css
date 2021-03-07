@@ -5,6 +5,9 @@
 h2 {
     text-transform: uppercase;
 }
+section{
+    cursor: pointer;
+}
     /* Homepage  */
 .jumbotron {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero1.jpg);
@@ -66,6 +69,7 @@ h2 {
 .menu {
     margin-top: 80px;
 }
+
 .card-body {
     background: #E6F2E9;
 }
@@ -103,7 +107,8 @@ h2 {
 }
 .order-btn:hover {
     color: #80b784;
-    background: black;
+    background: black
+    ;
 }
 /* .card {
     /* display: none; */
