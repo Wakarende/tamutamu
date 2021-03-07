@@ -168,18 +168,19 @@ section{
     margin-top: 20px;
 }
 
-/* footer  */
+/* index footer  */
 .footer {
     background:#E6F2E9;
-    padding-bottom: 30px;
+
 }
 .bi-footer {
     font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    color:#80b784;
 }
 
-/* order  */
+/* checkout-order  */
 .nav-order {
     color: black;
 }
@@ -196,4 +197,12 @@ section{
 }
 #order-section {
     display: flex;
+    justify-content: space-around;
+}
+/* chekcout-footer  */
+.checkout-footer {
+    background:#E6F2E9;
+    padding-bottom: 30px;
+    margin-top: 80px;
+
 }

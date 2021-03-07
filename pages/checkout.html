@@ -36,10 +36,11 @@
         <!-- choose order  -->
         <section class="order">
         <!-- order section  -->
-                <div class="container" id="order-section">
+                <div class="container-fluid" id="order-section">
                         <div class="card" style="width: 18rem;">
+                                <h2>Select your order</h2>
                                 <div class="card-body">
-                                        <h2>Select your order</h2>
+                                        
                                         <!-- <label for="number">Number of pizza</label>
                                         <input type="number" class="number" id="number" value="number"><br> -->
                                         <form id="form">
@@ -78,26 +79,29 @@
                                         <label class="form-check-label" for="sizeSmall">
                                         Thin
                                         </label><hr>
+                                        <div class="toppings">
                                         <label for="toppings">Select your toppings</label>
                                         <p>Ksh.100 per topping</p>
-                                        <label for="Sausage">Sausage</label>
-                                        <input type="checkbox" value="sausage" name="toppings" id="sausage"><br>
-                                        <label for="Sausage">Cheese</label>
-                                        <input type="checkbox" value="cheese" name="toppings" id="cheese"><br>
+                                         <input type="checkbox" value="sausage" name="toppings" id="sausage">
+                                        <label for="Sausage">Sausage</label><br>
+                                        <input type="checkbox" value="cheese" name="toppings" id="cheese">
+                                        <label for="Sausage">Cheese</label><br>
+                                        <input type="checkbox" value="pepperoni" name="toppings" id="pepperoni">
                                         <label for="Sausage">Pepperoni</label>
-                                        <input type="checkbox" value="pepperoni" name="toppings" id="pepperoni"><br>
+                                        <br>
+                                        <input type="checkbox" value="mushroom" name="toppings" id="mushroom">
                                         <label for="Sausage">Mushroom</label>
-                                        <input type="checkbox" value="mushroom" name="toppings" id="mushroom"><br>
-                                        <label for="Sausage">Ham</label>
-                                        <input type="checkbox" value="ham" name="toppings" id="ham"><br>
+                                        <br>
+                                        <input type="checkbox" value="ham" name="toppings" id="ham">
+                                        <label for="Sausage">Ham</label><br>
                                         <button class="submit" onclick="submit">Submit</button>
-                        
+                                        </div>
                                         </form>
                                 </div>
                         </div>
                 <!-- pickup or delivery  -->
-                <h2>Delivery or Pickup</h2>
                         <div class="card" style="width: 18rem;">
+                                <h2>Delivery or Pickup</h2>
                                 <div class="card-body">
                                 <p>Choose delivery method</p>
                                 <button id="pickup" onclick="click">Pickup</button>
@@ -111,8 +115,8 @@
                                 </div>
                         </div>
                         <!-- checkout -->
-                        <h2>Bill</h2>
                         <div class="card" style="width: 18rem;">
+                                <h2>Bill</h2>
                                 <div class="card-body">
                                         <div id="show-Bill">
                                                 <div class="panel panel-default">
@@ -131,6 +135,17 @@
                         
                 </div>
         </section>
+        <!-- footer  -->
+       <section class="footer text-center" id="footer">
+        <div class="container">
+            <img  class="footer-logo" src="../img/logo.png" alt="logo"><br>
+            <i class="bi-footer bi-twitter"></i>
+            <i class="bi-footer bi-facebook"></i>
+            <i class="bi-footer bi-instagram"></i> <br>
+            &copy; TamuTamu All Rights Reserved.
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.065321871905!2d36.812656736096855!3d-1.3157591325483373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1053bc7118e7%3A0xb365376f1d28175!2sNairobi%20West%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1615138623115!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
         <!-- JS  -->
          <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
         <script src="../js/script.js"></script>
