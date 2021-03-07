@@ -194,3 +194,6 @@ section{
 .order {
     color: black;
 }
+#order-section {
+    display: flex;
+}
