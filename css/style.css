@@ -106,9 +106,7 @@ p {
 .card-img-top {
     height: 320px;
 }
-.card {
-    height: ;
-}
+
 .order-btn {
     border: 1px solid #377B44;
     text-decoration: none;
@@ -121,9 +119,6 @@ p {
     color: #80b784;
     background: #383839;
 }
-/* .card {
-    /* display: none; */
-/* / */
 
 /* Gallery */
 .gallery {
@@ -182,7 +177,7 @@ p {
     background: none;
 }
 .subscribe:hover {
-    background: black;
+    background:#383839;
     color: #80b784;
 
 }

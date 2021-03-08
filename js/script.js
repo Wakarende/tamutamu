@@ -83,11 +83,17 @@ $("#pickup").click(function() {
 });
 
 //delivery option
+$("#delivery").click(function() {
+  alert("Fill in the form below.")
+});
+
 $("#submit").click(function() {
   var fullName = $("#name").val();
   var location= $("#location").val();
   var phoneNumber = $("#number").val();
   var finalDeliveryTotal = finalCost +150;
+
+  
   if(fullName == "" || location == "" || phoneNumber == "") {
     alert("please enter your details")
   }else {
