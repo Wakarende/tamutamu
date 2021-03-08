@@ -47,7 +47,7 @@ p {
 }
 .hero-link:hover {
     color: #80b784;
-    background: black;
+    background:#383839;
 }
 .hero-text {
     color: white;
@@ -95,16 +95,6 @@ p {
     margin-top:60px;
     margin-bottom: 20px;
 }
-.menu-btn {
-    background:none;
-    border-radius: 10px;
-    border: 1px solid #377B44;
-    padding: 5px;
-}
-.menu-btn:hover {
-    background: black;
-    color:#80b784 ;
-}
 .card-img-top {
     height: 10cm;
 }
@@ -118,8 +108,7 @@ p {
 }
 .order-btn:hover {
     color: #80b784;
-    background: black
-    ;
+    background: #383839;
 }
 /* .card {
     /* display: none; */
