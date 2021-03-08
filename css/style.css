@@ -65,17 +65,25 @@ p {
     display: flexbox;
     justify-content:space-evenly;
     background: #E6F2E9;
+    padding: 10px;
 }
 .about-img {
     height: 30rem;
     width: 20rem;
     border-radius: 10px;
 }
-.col-md-6 {
+.about-title {
+    margin-bottom: 20px;
+}
+#about {
+    display: flex;
+    justify-content: space-around;
     margin-top: 80px;
     margin-bottom: 80px;
 }
-
+.flex-content p {
+    line-height: 2.5;
+}
 /* Menu  */
 .menu {
     margin-top: 80px;
