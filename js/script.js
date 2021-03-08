@@ -58,11 +58,13 @@ $(document).ready(function() {
       checkedToppings.push($(this).val());
     });
     pizzaQuantity = parseInt($("#quantity").val());
+    var totalPizzaQuantity = finalCost * pizzaQuantity;
 
     $("#displaySize").text(checkedSize);
     $("#displayCrust").text(checkedCrust);
     $("#displayName").text(pizzaName);
     $("#displayToppings").text(checkedToppings);
+    $("#displayQuantity").text(totalPizzaQuantity);
 
 
     pizza = new Pizza(checkedToppings,checkedSize,checkedCrust);

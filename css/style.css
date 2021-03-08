@@ -96,7 +96,10 @@ p {
     margin-bottom: 20px;
 }
 .card-img-top {
-    height: 10cm;
+    height: 320px;
+}
+.card {
+    height: ;
 }
 .order-btn {
     border: 1px solid #377B44;
@@ -134,10 +137,20 @@ p {
 .item {
     padding: 5px;
 }
+.item {
+    height: 320px;
+    width: 400px;
+}
 
 /* Contact  */
+#contact {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+}
 .contact {
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 80px;
 }
 .contact-list {
@@ -171,7 +184,9 @@ p {
 .email {
     margin-top: 20px;
 }
-
+.form-title {
+    margin-top: 20px;
+}
 /* index footer  */
 .footer {
     background:#383839;
@@ -218,7 +233,7 @@ p {
 /* checkout-order  */
 .nav-order {
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .card {
     margin-bottom: 100px;
@@ -273,6 +288,10 @@ p {
     border-radius: 10px;
     border: 1px solid #80b784;
     margin-top: 20px;
+}
+.btn-delivery:hover {
+    background: #383839;
+    color: #80b784;
 }
 #order-section {
     display: flex;
