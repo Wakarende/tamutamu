@@ -24,6 +24,10 @@ Once selection is done, the user will click the submit button which will print o
 - jQuery
 - Bootstrap
 
+## Known Bugs
+
+Add quantity section displays Nan when quantity is more than one on first click of submit button. Upon clicking the submit button for the second time, the quantity total cost will display correctly.
+
 ## Contact Details
 
 - Email: joykirii@gmail.com
