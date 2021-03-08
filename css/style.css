@@ -113,6 +113,7 @@ p {
 /* .card {
     /* display: none; */
 /* / */
+
 /* Gallery */
 .gallery {
     margin-top: 80px;
@@ -133,6 +134,7 @@ p {
 .item {
     padding: 5px;
 }
+
 /* Contact  */
 .contact {
     margin-top: 80px;
@@ -213,29 +215,64 @@ p {
     color: white;
 }
 
-   
-
-
 /* checkout-order  */
 .nav-order {
     color: black;
-    background: #E6F2E9;
+    margin-bottom: 20px;
 }
-
-.section-header {
-    font-family: "Metal Mania";
-    font-weight: normal;
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
+.card {
+    margin-bottom: 100px;
 }
-.navbar.scrolled {
-    background: #E6F2E9;
-    transition: background-color 200ms linear;
-}
-
+.card-body 
 .order {
     color: black;
+}
+.order h2 {
+    text-align: center;
+}
+.submit {
+    background:white;
+    border-radius: 10px;
+    border: 1px solid #80b784;
+    margin-top: 20px;
+}
+.submit:hover {
+    background: #383839;
+    color: #80b784;
+}
+#pickup {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #80b784;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+#pickup:hover{
+    background: #383839;
+    color: #80b784;
+}
+#delivery {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #80b784;
+    margin-left: 5px;
+}
+#delivery:hover {
+    background: #383839;
+    color: #80b784;
+}
+#delivery-body {
+    text-align: center;
+}
+#name, #location, #number{
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-delivery {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #80b784;
+    margin-top: 20px;
 }
 #order-section {
     display: flex;
