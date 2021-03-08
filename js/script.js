@@ -50,6 +50,7 @@ $(document).ready(function() {
   $("#form").submit(function(event){
     event.preventDefault();
     $("#show-Bill").show();
+    var pizzaName = $("#pizza option:selected").val();
     var checkedSize = $("input:radio[name=sizePizza]:checked").val();
     var checkedCrust = $("input:radio[name=crustPizza]:checked").val();
     var checkedToppings = [];
@@ -60,6 +61,8 @@ $(document).ready(function() {
 
     $("#displaySize").text(checkedSize);
     $("#displayCrust").text(checkedCrust);
+    $("#displayName").text(pizzaName);
+    $("#displayToppings").text(checkedToppings);
 
 
     pizza = new Pizza(checkedToppings,checkedSize,checkedCrust);

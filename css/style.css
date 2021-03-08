@@ -183,14 +183,15 @@ p {
 
 /* index footer  */
 .footer {
-    background:#E6F2E9;
+    background:#383839;
 
 }
 .bi-footer {
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
     color:#80b784;
+    padding-bottom: 0;
 }
 .map {
     height: 5cm;
@@ -200,6 +201,31 @@ p {
     align-self: right;
 
 }
+.footer-list {
+    list-style:none;
+    line-height: 2;
+}
+.footer-link {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+     text-decoration: none;
+}
+.footer-link:hover{
+    color: #80b784;
+    text-decoration: underline;
+}
+.copyright {
+    color: white;
+    text-align: right;
+}
+
+.footer hr {
+    color: white;
+}
+
+   
+
 
 /* checkout-order  */
 .nav-order {
