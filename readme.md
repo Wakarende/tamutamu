@@ -33,7 +33,6 @@ Add quantity section displays Nan when quantity is more than one on first click 
 For any further questions, contributions or feedback, get in touch with me through the following contacts;
 
 - Email: joykirii@gmail.com
-- Phone: +25472321289
 
 ## License
 
